@@ -1,0 +1,179 @@
+########################################
+# Program: matcher
+# Rundate: Sun 20 Apr 2025 16:15:07
+# Commandline: matcher
+#    -auto
+#    -asequence /var/lib/emboss-explorer/output/857929/.asequence
+#    -bsequence /var/lib/emboss-explorer/output/857929/.bsequence
+#    -alternatives 1
+#    -outfile outfile
+#    -aformat3 markx0
+# Align_format: markx0
+# Report_file: outfile
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 137964473-138016364
+# 2: c27010291-26978274
+# Matrix: EDNAFULL
+# Gap_penalty: 16
+# Extend_penalty: 4
+#
+# Length: 1185
+# Identity:     828/1185 (69.9%)
+# Similarity:   828/1185 (69.9%)
+# Gaps:          81/1185 ( 6.8%)
+# Score: 2340
+# 
+#
+#=======================================
+
+            48860     48870       48880     48890        
+137964 ATCTCTTTTCCCTCTGCCCTCA--CTCATTCAGCTCCAATTTCACTGGCT
+       :: : :::: : :::  : :::  :::::::  :::::: :::  :::::
+c27010 ATGTTTTTTACTTCTTTC-TCATGCTCATTCGACTCCAAGTTCCTTGGCT
+         30870     30880      30890     30900     30910  
+
+    48900     48910     48920      48930     48940       
+137964 TCCTGGCTAGTTCTTTAATGGGCCAAGTAT-CATCCTGTATTCAGGTCCT
+         :::: :::::::: :::: :::::   : :::  :   ::::  ::: 
+c27010 GGCTGGTTAGTTCTTAAATGTGCCAACCTTGCAT--TTGCTTCAAATCCC
+          30920     30930     30940       30950     30960
+
+     48950     48960     48970     48980     48990       
+137964 TTGCAGCTGCTCATCTCTCTCCTGGAGTCATCTTCCCCCTGATATCTCCA
+       :   ::::: :: :  :  :  :::::: :::::::   :::: ::: ::
+c27010 TAATAGCTGTTCTTTCCATT--TGGAGTAATCTTCCTTGTGATGTCTACA
+            30970     30980       30990     31000        
+
+     49000     49010     49020     49030     49040       
+137964 TGTCTTGCTGTCAGGTCTCTGCTCAAATGTCAGGTTATTAGACAGACTCT
+       ::  ::::::  :: : : : ::::::::: :    :: : :::: ::::
+c27010 TGA-TTGCTG--AGATTTGTCCTCAAATGTTACCACATGAAACAGTCTCT
+    31010        31020     31030     31040     31050     
+
+     49050     49060     49070     49080     49090       
+137964 GCGACCACCCTAGTTAAAACAGCAGCCCATCAAAGTCTTTAACCCT-CTT
+       : :: :::  ::: ::::::::::     : :: :::::: ::: : :::
+c27010 GTGATCACTATAGGTAAAACAGCAATATTTAAATGTCTTTGACCATACTT
+       31060     31070     31080     31090     31100     
+
+      49100        49110     49120     49130             
+137964 AGCAT---TTACTCAGATTACTTTTTCATTTAGCATTTATCACC----AT
+       :  ::   :::::: :     :::::   :::  ::::::  :     ::
+c27010 ATTATGCCTTACTCTG-----TTTTTGGCTTACAATTTATATCATATGAT
+       31110     31120          31130     31140     31150
+
+   49140     49150             49160     49170           
+137964 ATATTTACTTA----TTT----TTCTCTCTCCTCCTGTACTCC---TTGA
+       ::::::: :::    :::    ::::: ::  :  :::  : :   ::::
+c27010 ATATTTAATTACCTATTTAATCTTCTCCCTGGTTTTGTTATGCAACTTGA
+            31160     31170     31180     31190     31200
+
+    49180     49190     49200     49210     49220        
+137964 AATATGAGCTGCACAAAGGACAAGATTATTATTTTGTTCTAT-------T
+       : ::  :::::::::::::  : :: :::: ::::::::: :       :
+c27010 ATTA--AGCTGCACAAAGGGTATGAATATTGTTTTGTTCTGTGCTCTACT
+              31210     31220     31230     31240        
+
+           49230     49240     49250     49260     49270 
+137964 CTAAGCATCTAGTGTACTTTCTGGCAGACTGCAAATGAAAGAAAGAATAA
+       ::::   :::::: :: :  :::  :::    :::::::::::: :::::
+c27010 CTAAATGTCTAGTATAATGACTGAGAGAGGCTAAATGAAAGAAAAAATAA
+    31250     31260     31270     31280     31290        
+
+           49280     49290     49300     49310     49320 
+137964 ATGAAAGCATGACTTGTGTTTTATTGCACAGGAAGCAGTGGCTGGGACAA
+       : :: ::::: :  : :::::: ::::: :::::  ::::::::::: ::
+c27010 A-GACAGCATCAACTTTGTTTT-TTGCATAGGAACTAGTGGCTGGGAAAA
+     31300     31310      31320     31330     31340      
+
+           49330     49340     49350     49360     49370 
+137964 GCTGTGGAAAAAGTACGGATCACGCTTTCCCCAGGATGACCTCTGCCAGT
+       ::: :::::::: :: ::::  ::: : :::  :::::::::::::::::
+c27010 GCTATGGAAAAAATATGGATTCCGCCTACCCAGGGATGACCTCTGCCAGT
+      31350     31360     31370     31380     31390      
+
+           49380     49390     49400     49410     49420 
+137964 ATATCACATCAGATGACCTCACTCAGATGCTGGACAACCTAGGGCTTAAG
+       :: :::::::   ::: ::  ::::::: :::::: :::: ::  :::::
+c27010 ATGTCACATCTTCTGATCTTGCTCAGATACTGGACGACCTGGGTATTAAG
+      31400     31410     31420     31430     31440      
+
+           49430     49440     49450     49460     49470 
+137964 TATGAGTGCTATGACCTTTTGTCCACCATGGATATATCTGACTGCTTTAT
+       ::::: :: :: :::::::::::::: ::::: ::: : ::::: :::::
+c27010 TATGAATGTTACGACCTTTTGTCCACTATGGACATAACAGACTGTTTTAT
+      31450     31460     31470     31480     31490      
+
+           49480     49490     49500     49510     49520 
+137964 TGATGGTAATGAAAATGGAGACCTGCTTTGGGATTTTTTGACTGAAACCT
+       :::::::::::::::::::::::::::::::::::::::::: :::::::
+c27010 TGATGGTAATGAAAATGGAGACCTGCTTTGGGATTTTTTGACAGAAACCT
+      31500     31510     31520     31530     31540      
+
+           49530     49540     49550     49560     49570 
+137964 GCAACTTTAATGCCACAGCACCACCTGATCTCAGAGCAGAGCTTGGGAAA
+       :::::::::     ::::::::::  :: :::: ::  ::  ::  ::::
+c27010 GCAACTTTATCAAAACAGCACCACTGGACCTCAAAGAGGAAATTATGAAA
+      31550     31560     31570     31580     31590      
+
+           49580     49590     49600     49610     49620 
+137964 GATCTACAAGAGCCTGAATTTAGTGCTAAGAAAGAGGGGAAGGTTCTTTT
+       ::::: ::::::::::::::::::: :::::::::::::::::: :::::
+c27010 GATCTTCAAGAGCCTGAATTTAGTGTTAAGAAAGAGGGGAAGGTACTTTT
+      31600     31610     31620     31630     31640      
+
+           49630     49640     49650     49660     49670 
+137964 TAATAATACTCTGAGTTTCATAGTGATTGAGGCATAACTATCAATCACAA
+        :: :: : ::::::::: :::::: :::::::: :  ::: : :::  :
+c27010 CAACAACAATCTGAGTTTTATAGTGGTTGAGGCAAATGTATAAGTCATGA
+      31650     31660     31670     31680     31690      
+
+           49680     49690     49700     49710     49720 
+137964 AAGTATATTCAAAAATTATATTTTGAACAACTCGAATCACTCATTTATTT
+            :::::: :: : ::::::::: ::: :       :: ::::::::
+c27010 ----GTATTCAGAACTCATATTTTGACCAAATG------CTGATTTATTT
+          31700     31710     31720           31730      
+
+           49730     49740     49750     49760     49770 
+137964 CCATATTAAAATCACAAACTCATCCATTAATGTAGATAAAGCACTGTTTG
+        :::::::::   ::: : :  :  : :: :: :: ::::  : :  :  
+c27010 ACATATTAAAT--ACATATTATTTAAATATTGAAGTTAAA--ATTAATCC
+      31740       31750     31760     31770       31780  
+
+           49780     49790     49800       49810         
+137964 GATATGAGATGTAGCAAATTCCAATACATTATTGGA--CTTCCATTTGGA
+        :::  :::  ::  : :::       :: : :: :  :: : : ::   
+c27010 CATAATAGAA-TACAATATTATTTCTTATAAATGAAATCTACAAGTTTCC
+          31790      31800     31810     31820     31830 
+
+   49820     49830     49840      49850     49860        
+137964 ATCATATGGGATACTGCTGGTCTTATC-CTGTCCCTCCTCCAGGTAGAGA
+       :  : :    : :::     ::: :   :::  :: : ::::: : : ::
+c27010 AAGACAACTTAGACTT----TCTAAGAACTGAGCCACTTCCAGTT-GTGA
+           31840         31850     31860     31870       
+
+    49870             49880     49890     49900     49910
+137964 GACCACAAGC--------AGGCTCAACATAACATAAGCTAGAAAAATTAG
+           : ::::        ::::: ::::   :  :: :: :::: :: ::
+c27010 CCTTAAAAGCTAATACTCAGGCTAAACACTGCCCAA-CTGGAAACATGAG
+      31880     31890     31900     31910      31920     
+
+            49920     49930     49940     49950     49960
+137964 ATGACTGAATTTCTATGGCATATTGATAATAAAATTCATTCCATTTGCTG
+       :    ::: ::::  : :: :: ::::: :::: ::: :::::::: :: 
+c27010 ACT--TGAGTTTCATTAGCTTACTGATAGTAAAGTTCTTTCCATTTTCTT
+         31930     31940     31950     31960     31970   
+
+             49970     49980     49990    
+137964 ATTGT-CTGAAATTTTCTAGAATACTAATAAAATA
+       : ::: ::: :: ::: ::::::: ::::::::::
+c27010 AGTGTACTGGAAATTTTTAGAATAGTAATAAAATA
+         31980     31990     32000        
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,107 @@
+########################################
+# Program: matcher
+# Rundate: Sun 20 Apr 2025 16:17:54
+# Commandline: matcher
+#    -auto
+#    -asequence /var/lib/emboss-explorer/output/035503/.asequence
+#    -bsequence /var/lib/emboss-explorer/output/035503/.bsequence
+#    -alternatives 1
+#    -outfile outfile
+#    -aformat3 markx0
+# Align_format: markx0
+# Report_file: outfile
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 132656522-132661110
+# 2: c38293483-38290926
+# Matrix: EDNAFULL
+# Gap_penalty: 16
+# Extend_penalty: 4
+#
+# Length: 593
+# Identity:     394/593 (66.4%)
+# Similarity:   394/593 (66.4%)
+# Gaps:          47/593 ( 7.9%)
+# Score: 1078
+# 
+#
+#=======================================
+
+       3170      3180       3190        3200      3210   
+132656 AGCAGGGCCTGACCCCTCGG-TGTCCCCT--CCCCACAGTACTGTGCAGC
+       : : : ::: : :::  :   :: :: ::  ::::::::: :::::::::
+c38293 ACCTGAGCCAGGCCCAACATCTGCCCTCTTCCCCCACAGTTCTGTGCAGC
+      1960      1970      1980      1990      2000       
+
+          3220      3230      3240      3250      3260   
+132656 CCTGGAATCCCTGATCAACGTGTCAGGCTGCAGTGCCATCGAGAAGACCC
+       :::::::::::::: :::: : ::  : :::: ::::::: : : :::::
+c38293 CCTGGAATCCCTGACCAACATCTCCAGTTGCAATGCCATCCACAGGACCC
+      2010      2020      2030      2040      2050       
+
+          3270      3280      3290      3300      3310   
+132656 AGAGGATGCTGAGCGGATTCTGCCCGCACAAGGTCTCAGCTGGGGTAAGG
+       :::::::  :::  ::  ::::    :: :::: ::: : :: :::::::
+c38293 AGAGGATATTGAATGGCCTCTGTAACCAAAAGGCCTCGGATGTGGTAAGG
+      2060      2070      2080      2090      2100       
+
+          3320      3330      3340      3350      3360   
+132656 CATCCCCCACCCTCTCACACCCACCCTGCACCCCCTCCTGCCAACCCTGG
+       : :   ::::::   :  :::::: :        :: ::: :        
+c38293 CCTGTTCCACCC---CTAACCCACAC--------CTGCTGGC--------
+      2110         2120      2130                        
+
+          3370      3380      3390      3400      3410   
+132656 GCTCGCTGAAGGGAAGCTGGCTGAATATCCATGGTGTGTGTCCACCCAGG
+                       :::: :::  ::::   :::  ::: ::::::::
+c38293 ----------------CTGGATGAGCATCCCAAGTGCATGTTCACCCAGG
+                     2140      2150      2160      2170  
+
+          3420      3430      3440      3450      3460   
+132656 GGTGGGGCCATTGTGGCAGCAGGGACGTGGCCTTCGGGATTTACAGGATC
+        : ::: ::: :::::::: ::::::   : ::: :::  ::::: :   
+c38293 AGCGGGACCACTGTGGCAGTAGGGACCCAGACTTAGGGTGTTACATGGCT
+           2180      2190      2200      2210      2220  
+
+          3470      3480      3490      3500      3510   
+132656 TGGGCTCAAGGGCTCCTAACTCCTACCTGGGCCTCAATTTCCACATCTGT
+       :::::::::::::::: ::::  :::::: :::::: ::::::::: :::
+c38293 TGGGCTCAAGGGCTCCCAACTTTTACCTGAGCCTCAGTTTCCACATTTGT
+           2230      2240      2250      2260      2270  
+
+          3520      3530      3540      3550      3560   
+132656 ACAGTAGAGGTACTAACAGTACCCACCTCATGGGGACTTCCGTGAGGACT
+       : :::::::: :  : ::: ::::::::  : :::::::  : ::: :  
+c38293 AAAGTAGAGGCAAAACCAGAACCCACCTGGTAGGGACTTTTGGGAGCATC
+           2280      2290      2300      2310      2320  
+
+          3570      3580      3590      3600      3610   
+132656 GAATGAGACAGTCCCTGGAAAGCCCCTGGTTTGTGCGAGTCGTCCCGGC-
+         : :   :::::::::::::::::::: :   ::: ::  ::::  :  
+c38293 ATAAGGACCAGTCCCTGGAAAGCCCCTGTTGAATGCCAGCTGTCCTTGAT
+           2330      2340      2350      2360      2370  
+
+             3620      3630      3640      3650      3660
+132656 CTCTGG--CGTTCTACTCATGTGCTGACCTCTTTGTCCTGCAGCAGTTTT
+       ::: :   ::: :  :: :::    : :::::: ::  :   ::::  ::
+c38293 CTCGGCGTCGTCCCTCTAATGGATGGGCCTCTTGGTTGTTTTGCAGGCTT
+           2380      2390      2400      2410      2420  
+
+             3670      3680      3690      3700      3710
+132656 CCAGCTTGCATGTCCGAGACACCAAAATCGAGGTGGCCCAGTTTGTAAAG
+       :::::        :: ::: ::::::::::: :: ::::::::: ::   
+c38293 CCAGCCC------CCCAGATACCAAAATCGAAGTAGCCCAGTTTATATCA
+                 2430      2440      2450      2460      
+
+             3720      3730      3740      3750   
+132656 GACCTGCTCTTACATTTAAAGAAACTTTTTCGCGAGGGACAGT
+        : ::::::    : :  ::: ::::::: ::: : :: :: :
+c38293 AAACTGCTCAATTACTCCAAGCAACTTTTCCGCTATGGCCACT
+       2470      2480      2490      2500         
+
+
+#---------------------------------------
+#---------------------------------------
