@@ -1,0 +1,54 @@
+timestamp,level,flow_run_id,task_run_id,message
+2025-05-25 14:11:46.321367+00:00,20,06833252-1a85-751f-8000-d5b8075f90ea,,Beginning flow run 'lavender-gecko' for flow 'Genomics Pipeline'
+2025-05-25 14:11:46.324682+00:00,20,06833252-1a85-751f-8000-d5b8075f90ea,,Ensured output directory 'prefect_output' exists.
+2025-05-25 14:11:47.693281+00:00,20,06833252-1a85-751f-8000-d5b8075f90ea,019707c9-0e18-7ebb-9afe-f59e27eda16a,Running: bwa index hg38.fa.gz
+2025-05-25 14:11:47.695145+00:00,20,06833252-1a85-751f-8000-d5b8075f90ea,019707c9-0e18-7d74-9eaf-d801a2aed6ce,Running: fastqc SRR33672046.fastq.gz -o prefect_output
+2025-05-25 14:11:47.696306+00:00,20,06833252-1a85-751f-8000-d5b8075f90ea,019707c9-0e18-7ebb-9afe-f59e27eda16a,Finished in state Completed()
+2025-05-25 14:11:47.700286+00:00,20,06833252-1a85-751f-8000-d5b8075f90ea,019707c9-0e1b-7a2e-b9f2-ea5fa0198381,Running: gunzip -c hg38.fa.gz > prefect_output/hg38.fa
+2025-05-25 14:11:47.703104+00:00,20,06833252-1a85-751f-8000-d5b8075f90ea,019707c9-0e19-7f94-9d57-5e2cd8bccad5,Running: bwa mem -t 10 hg38.fa.gz SRR33672046.fastq.gz > prefect_output/out.sam
+2025-05-25 14:13:52.855351+00:00,20,06833252-1a85-751f-8000-d5b8075f90ea,019707c9-0e18-7d74-9eaf-d801a2aed6ce,"application/gzip
+Analysis complete for SRR33672046.fastq.gz
+"
+2025-05-25 14:13:52.856261+00:00,30,06833252-1a85-751f-8000-d5b8075f90ea,019707c9-0e18-7d74-9eaf-d801a2aed6ce,"Stderr: Started analysis of SRR33672046.fastq.gz
+Approx 5% complete for SRR33672046.fastq.gz
+Approx 10% complete for SRR33672046.fastq.gz
+Approx 15% complete for SRR33672046.fastq.gz
+Approx 20% complete for SRR33672046.fastq.gz
+Approx 25% complete for SRR33672046.fastq.gz
+Approx 30% complete for SRR33672046.fastq.gz
+Approx 35% complete for SRR33672046.fastq.gz
+Approx 40% complete for SRR33672046.fastq.gz
+Approx 45% complete for SRR33672046.fastq.gz
+Approx 50% complete for SRR33672046.fastq.gz
+Approx 55% complete for SRR33672046.fastq.gz
+Approx 60% complete for SRR33672046.fastq.gz
+Approx 65% complete for SRR33672046.fastq.gz
+Approx 70% complete for SRR33672046.fastq.gz
+Approx 75% complete for SRR33672046.fastq.gz
+Approx 80% complete for SRR33672046.fastq.gz
+Approx 85% complete for SRR33672046.fastq.gz
+Approx 90% complete for SRR33672046.fastq.gz
+Approx 95% complete for SRR33672046.fastq.gz
+"
+2025-05-25 14:13:52.857468+00:00,20,06833252-1a85-751f-8000-d5b8075f90ea,019707c9-0e18-7d74-9eaf-d801a2aed6ce,FastQC report moved to prefect_output/fastqc_report.html
+2025-05-25 14:13:53.200204+00:00,20,06833252-1a85-751f-8000-d5b8075f90ea,019707c9-0e18-7d74-9eaf-d801a2aed6ce,Finished in state Completed()
+2025-05-25 14:13:56.391643+00:00,20,06833252-1a85-751f-8000-d5b8075f90ea,019707c9-0e1b-7a2e-b9f2-ea5fa0198381,FASTA file unzipped to prefect_output/hg38.fa
+2025-05-25 14:13:56.393703+00:00,20,06833252-1a85-751f-8000-d5b8075f90ea,019707c9-0e1b-7a2e-b9f2-ea5fa0198381,Finished in state Completed()
+2025-05-25 14:18:15.938232+00:00,20,06833252-1a85-751f-8000-d5b8075f90ea,019707c9-0e19-7f94-9d57-5e2cd8bccad5,"Alignment complete, output saved to prefect_output/out.sam"
+2025-05-25 14:18:15.940467+00:00,20,06833252-1a85-751f-8000-d5b8075f90ea,019707c9-0e19-7f94-9d57-5e2cd8bccad5,Finished in state Completed()
+2025-05-25 14:18:15.944789+00:00,20,06833252-1a85-751f-8000-d5b8075f90ea,019707c9-0e19-7474-ad82-f3f066edabe7,Running: samtools view -S -b prefect_output/out.sam > prefect_output/out.bam
+2025-05-25 14:18:59.667991+00:00,20,06833252-1a85-751f-8000-d5b8075f90ea,019707c9-0e19-7474-ad82-f3f066edabe7,"SAM converted to BAM, output saved to prefect_output/out.bam"
+2025-05-25 14:18:59.670089+00:00,20,06833252-1a85-751f-8000-d5b8075f90ea,019707c9-0e19-7474-ad82-f3f066edabe7,Finished in state Completed()
+2025-05-25 14:18:59.674714+00:00,20,06833252-1a85-751f-8000-d5b8075f90ea,019707c9-0e19-7adc-bf42-47cb5f554447,Running: samtools flagstat prefect_output/out.bam
+2025-05-25 14:19:04.719378+00:00,20,06833252-1a85-751f-8000-d5b8075f90ea,019707c9-0e19-7adc-bf42-47cb5f554447,Finished in state Completed()
+2025-05-25 14:19:04.724154+00:00,20,06833252-1a85-751f-8000-d5b8075f90ea,019707c9-0e1b-78d1-accc-d181af934f44,Running: samtools sort prefect_output/out.sorted.bam > prefect_output/out.bam
+2025-05-25 14:19:56.458400+00:00,20,06833252-1a85-751f-8000-d5b8075f90ea,019707c9-0e1b-78d1-accc-d181af934f44,"BAM file sorted, output saved to prefect_output/out.bam"
+2025-05-25 14:19:56.460556+00:00,20,06833252-1a85-751f-8000-d5b8075f90ea,019707c9-0e1b-78d1-accc-d181af934f44,Finished in state Completed()
+2025-05-25 14:19:56.464839+00:00,20,06833252-1a85-751f-8000-d5b8075f90ea,019707c9-0e1b-7e53-ba1b-94888867a19f,Running: freebayes -f prefect_output/hg38.fa prefect_output/out.bam > prefect_output/bayes_report.vcf
+2025-05-25 14:30:12.585636+00:00,20,06833252-1a85-751f-8000-d5b8075f90ea,019707c9-0e1b-7e53-ba1b-94888867a19f,"Variant calling complete, report saved to prefect_output/bayes_report.vcf"
+2025-05-25 14:30:12.587927+00:00,20,06833252-1a85-751f-8000-d5b8075f90ea,019707c9-0e1b-7e53-ba1b-94888867a19f,Finished in state Completed()
+2025-05-25 14:30:12.589612+00:00,20,06833252-1a85-751f-8000-d5b8075f90ea,,"
+Pipeline execution complete!"
+2025-05-25 14:30:12.590057+00:00,20,06833252-1a85-751f-8000-d5b8075f90ea,,Final VCF report: prefect_output/bayes_report.vcf
+2025-05-25 14:30:12.590523+00:00,20,06833252-1a85-751f-8000-d5b8075f90ea,,FastQC report: prefect_output/fastqc_report.html
+2025-05-25 14:30:13.161407+00:00,20,06833252-1a85-751f-8000-d5b8075f90ea,,Finished in state Completed()
